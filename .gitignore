@@ -1,0 +1,22 @@
+# Node/Next artifacts
+node_modules
+.next
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local storage directory (runtime artifacts)
+storage/
+
+# Build outputs
+/dist
+/out
+
+# Local env/config
+.env
+.env.local
+.env.*.local
+
+# OS cruft
+.DS_Store
